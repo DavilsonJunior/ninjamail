@@ -10,7 +10,14 @@ export default createGlobalStyle`
   body {
     background: ${props => props.theme.colors.background};
     color: ${props => props.theme.colors.text};
-    font: 400 16px Inter, sans-serif;
+    font: 400 16px Roleway, sans-serif;
+  }
+
+  h1 {
+    color:  ${props => props.theme.colors.text};
+    font-family: 'Playfair Display', serif;
+    font-size: 4.44rem;
+    width: 600px;
   }
 
 `;
