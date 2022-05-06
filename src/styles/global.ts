@@ -1,3 +1,4 @@
+import { lighten } from 'polished';
 import { createGlobalStyle } from 'styled-components';
 import theme from './theme';
 
@@ -30,7 +31,9 @@ export default createGlobalStyle`
   h1 {
     color:  ${props => props.theme.colors.text};
     font-family: 'Playfair Display', sans-serif;
-    font-size: 4.44rem;
+    font-weight: 900;
+    font-size: 3.69rem;
+    line-height: 4.44rem;
   }
 
   img {
@@ -50,23 +53,33 @@ export default createGlobalStyle`
     font-family: Raleway, sans-serif;
     font-size: 1.312rem;
     font-weight: 900;
-    line-height: 1.56rem;
 
-    padding: 1.25rem;
+    padding: 1.25rem 1.8rem;
     color: ${theme.colors.primary};
     background-color: ${theme.colors.secondary};
+    transition: background 500ms;
+  }
+
+  button.contained:hover {
+      background-color: ${lighten(0.1, theme.colors.secondary)};
   }
 
   button.outlined {
     font-family: Raleway, sans-serif;
     font-size: 1.312rem;
     font-weight: 900;
-    line-height: 1.56rem;
 
-    padding: 1.25rem;
+    padding: 1.125rem 1.8rem;
     color: ${theme.colors.secondary};
     border: 2px solid ${theme.colors.secondary};
     background-color: ${theme.colors.primary};
+    transition: background 400ms;
+  }
+
+  button.outlined:hover {
+    background-color: ${lighten(0.1, theme.colors.secondary)};
+    border-color: ${lighten(0.1, theme.colors.secondary)};;
+    color: ${theme.colors.primary};
   }
 
 `;
