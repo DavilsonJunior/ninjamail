@@ -150,7 +150,7 @@ export const Container = styled.div`
     > section.works {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      gap: 0;
+      gap: 1rem;
 
       > article {
         max-width: 20rem;
@@ -247,7 +247,7 @@ export const Container = styled.div`
     }
 
     > section.case-studio {
-      height: 9.812rem;
+      height: auto;
 
       gap: 2rem;
     }

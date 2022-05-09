@@ -41,4 +41,8 @@ export const Container = styled.article`
       }
     }
   }
+
+  @media (max-width: 550px) {
+    margin-top: 0;
+  }
 `;
