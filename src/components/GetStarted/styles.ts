@@ -22,6 +22,7 @@ export const Container = styled.section`
   }
 
   @media (max-width: 900px) {
+    padding: 2rem;
     h1 {
       font-size: 2.625rem;
     }

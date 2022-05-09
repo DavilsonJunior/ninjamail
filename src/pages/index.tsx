@@ -1,3 +1,4 @@
+import About from '../components/About';
 import Brands from '../components/Brands';
 import CompanyInformation from '../components/CompanyInformation';
 import Form from '../components/Form';
@@ -15,6 +16,7 @@ export default function Home() {
         <Form />
         <Brands />
         <GetStarted />
+        <About />
       </main>
     </>
   );
