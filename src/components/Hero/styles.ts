@@ -88,7 +88,7 @@ export const Container = styled.section`
   @media (max-width: 500px) {
     display: flex;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0rem 1rem;
     background-position: 100% 15%;
 
     div.hero h1 {

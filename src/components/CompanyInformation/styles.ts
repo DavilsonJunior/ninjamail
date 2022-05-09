@@ -147,6 +147,10 @@ export const Container = styled.div`
   }
 
   @media (max-width: 700px) {
+    > section.video {
+      height: 20rem;
+    }
+
     > section.works {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -196,6 +200,8 @@ export const Container = styled.div`
 
   @media (max-width: 550px) {
     > section.video {
+      height: 18rem;
+
       h1 {
         font-size: 1.375rem;
       }
@@ -211,6 +217,7 @@ export const Container = styled.div`
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       gap: 0;
+      margin-top: 4rem;
 
       > article {
         max-width: 15rem;
