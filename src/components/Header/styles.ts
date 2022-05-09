@@ -92,11 +92,6 @@ export const Menu = styled.nav`
     margin-left: 2rem;
     color: ${theme.colors.primary};
     background-color: ${theme.colors.secondary};
-    transition: background 1s;
-
-    &:hover {
-      background-color: ${lighten(0.1, theme.colors.secondary)};
-    }
   }
 
   @media (max-width: 1000px) {
