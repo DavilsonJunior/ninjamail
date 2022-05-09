@@ -20,6 +20,14 @@ export const Container = styled.section`
         margin-top: 1.88rem;
       }
 
+      p {
+        color: ${props => props.theme.colors.text};
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 1.187rem;
+        line-height: 1.625rem;
+      }
+
       div.button-group {
         display: flex;
         align-items: center;

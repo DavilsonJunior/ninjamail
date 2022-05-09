@@ -112,12 +112,13 @@ export const Container = styled.section`
         align-items: center;
 
         div {
-          padding: 1rem 0;
+          padding: 1rem 0 0 0;
         }
       }
 
       button {
         margin-left: 0;
+        margin-top: 1rem;
       }
     }
   }
