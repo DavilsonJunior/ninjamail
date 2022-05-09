@@ -1,3 +1,4 @@
+import Brands from '../components/Brands';
 import CompanyInformation from '../components/CompanyInformation';
 import Form from '../components/Form';
 import Header from '../components/Header';
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <CompanyInformation />
         <Form />
+        <Brands />
       </main>
     </>
   );
