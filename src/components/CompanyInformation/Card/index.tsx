@@ -17,11 +17,7 @@ const Card: React.FC<CardProps> = ({
   duration,
   buttonText
 }) => (
-  <Container
-    data-aos="fade-up-right"
-    data-aos-offset="150"
-    data-aos-duration={duration}
-  >
+  <Container data-aos="fade-up" data-aos-duration={duration}>
     <img src={url} alt={alt} />
     <div className="content">
       <p>{description}</p>

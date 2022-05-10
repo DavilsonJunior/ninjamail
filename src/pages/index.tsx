@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import About from '../components/About';
 import Brands from '../components/Brands';
@@ -9,8 +10,6 @@ import Form from '../components/Form';
 import GetStarted from '../components/GetStarted';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-
-import 'aos/dist/aos.css';
 
 export default function Home() {
   useEffect(() => {

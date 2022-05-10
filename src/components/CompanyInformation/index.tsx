@@ -36,7 +36,7 @@ const CompanyInformation: React.FC = () => (
         buttonText="Learn More >"
       />
 
-      <article data-aos="fade-left" className="extra-description">
+      <article data-aos="fade-down" className="extra-description">
         <h2>The source for proven, engaging email campaigns</h2>
         <p>
           Whether you’re a startup, small business, e-commerce store, or want to
@@ -45,7 +45,7 @@ const CompanyInformation: React.FC = () => (
         </p>
       </article>
     </section>
-    <section data-aos="fade-right" className="case-studio">
+    <section data-aos="fade-up" className="case-studio">
       <CaseStudyBanner
         url={caseStudioMan}
         title="Frankie"

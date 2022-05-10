@@ -12,7 +12,7 @@ const Form: React.FC = () => {
 
   return (
     <Container>
-      <h2 data-aos="fade-left">
+      <h2 data-aos="fade-down">
         Learn how others are reaching their audience easier than ever before.
       </h2>
       <form data-aos="fade-up" onSubmit={handleSubmit}>

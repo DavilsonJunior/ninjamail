@@ -6,12 +6,12 @@ import { Container, Content } from './styles';
 
 const About: React.FC = () => (
   <Container>
-    <div data-aos="fade-right" className="logo">
+    <div data-aos="fade-up" className="logo">
       <img src={logoImg} alt="logo Ninja mail" />
       <span>NinjaMail</span>
     </div>
 
-    <Content data-aos="fade-left">
+    <Content>
       <div className="content1">
         <div className="column1">
           <ul>

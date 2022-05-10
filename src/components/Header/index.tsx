@@ -5,7 +5,7 @@ import logoImg from '../../assets/logo.png';
 import { Container, Menu } from './styles';
 
 const Header: React.FC = () => (
-  <Container data-aos="fade-right">
+  <Container data-aos="fade-down">
     <div className="logo">
       <img src={logoImg} alt="Logo" />
       <span>NinjaMail</span>
