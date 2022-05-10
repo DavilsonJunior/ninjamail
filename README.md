@@ -1,49 +1,100 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub last commit](https://img.shields.io/badge/last%20comit-may%202021-orange)](https://github.com/renanlido/ignews/commits)
-[![Next.js](https://img.shields.io/badge/NextJs-blue)](https://nextjs.org/)
-[![React.js](https://img.shields.io/badge/-ReactJs-blue)](https://pt-br.reactjs.org/)
-[![Typescript](https://img.shields.io/badge/-Typescript-blue)](https://www.typescriptlang.org/)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/35976070/167727903-2b85eb7c-147a-443c-8441-ade063bcf627.gif" alt="React logo" width="200"/>
+</p>
 
-<!--LOGO-->
-<br/>
+<p align="center">
+   <a href="https://www.linkedin.com/in/davilson-paulino-cunha-da-junior-23029315a/">
+      <img alt="Davilson Junior" src="https://img.shields.io/badge/-Davilson Junior-4e5acf?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+ <img alt="Repository size" src="https://img.shields.io/github/repo-size/DavilsonJunior/ninjamail?color=4e5acf">
+
+  <a aria-label="Last Commit" href="https://github.com/DavilsonJunior/ninjamail/commits/master">
+    <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/DavilsonJunior/ninjamail?color=4e5acf">
+  </a>
+  <a href="https://github.com/DavilsonJunior/ninjamail/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DavilsonJunior/ninjamail?color=4e5acf">
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-4e5acf">
+</p>
+
 <div align="center">
-    <h1 color="#ffff" >Initial project config with Next Js, Typescript, ESlint, Prettier and Styled-Components</h1>
-    </br>
+  <sub>O <strong>NinjaMail</strong> foi desenvolvido com ❤︎ pelo
+    <a href="https://github.com/DavilsonJunior">Davilson Junior</a>
+  </sub>
 </div>
 
-<!-- ABOUT THE PROJECT -->
+# :pushpin: Conteúdo
 
-# <strong>About the project</strong>
+- [Demo](#eyes-demo)
+- [Tecnologias](#computer-tecnologias)
+- [Executando](#construction_worker-executando)
+- [Autores](#computer-autores)
+- [Licença](#closed_book-licença)
 
-This is a template for initial configuration for projects based in Next Js.
+### Fotos
 
-Use and abuse!
+<div>
+   <img src="https://user-images.githubusercontent.com/35976070/167728377-776f8d0a-4a8e-4fb5-b3c7-381e0856c8ad.png" width="360px">
+   <img src="https://user-images.githubusercontent.com/35976070/167728386-8c71f9de-ca60-41ae-96c3-7fbfc2a6eaa3.png" width="360px">
+   <img src="https://user-images.githubusercontent.com/35976070/167728396-ad408797-b8c3-4dd8-a3b3-768a38d77535.png" width="360px">
+   <img src="https://user-images.githubusercontent.com/35976070/167728402-cb7ae715-f294-4558-a378-a20bc3813d41.png" width="360px">
+   <img src="https://user-images.githubusercontent.com/35976070/167728408-5badd475-62fb-4c6f-8bcc-93634edb3b37.png" width="360px">
+   <img src="https://user-images.githubusercontent.com/35976070/167728414-0a74a76f-145d-4812-923a-a85cdfd19d4c.png" width="360px">
+</div>
 
-</br>
+# :eyes: Demo
 
-<!--INSTALATION-->
+👉 Demo: https://ninjamail.vercel.app/
 
-# <strong>Instalation</strong>
+# :computer: Tecnologias
 
-Just clone this repo or use as a template and enjoy!
+Este projeto foi feito utilizando as seguintes tecnologias:
 
-Good coding!
+- [NextJS](https://github.com/vercel/next.js/)
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Aos](http://michalsnik.github.io/aos/)
+- [ESLint](https://github.com/eslint/eslint)
+- [Prettier](https://github.com/prettier/prettier)
 
-</br>
+# :construction_worker: Executando
 
-# **License**
+```bash
+# Clone o Repositório
+$ https://github.com/DavilsonJunior/ninjamail
+```
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+```bash
+# Acesse a pasta do projeto e baixe as dependências
+$ yarn
+```
 
-<!-- CONTACT -->
-</br>
+```bash
+# Execute
+$ yarn dev
+```
 
-# **Contact**
+Acesse <http://localhost:3000> para ver o resultado.
 
-### Renan Oliveira - **renanlido@yahoo.com.br**
+# :computer: Autores
 
-[Github](https://github.com/renanlido) - **https://github.com/renanlido** </br>
-[Linkedin](https://www.linkedin.com/in/renanlido/) - **https://www.linkedin.com/in/renanlido/**
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/DavilsonJunior/">
+        <img src="https://avatars.githubusercontent.com/u/35976070?s=400&u=eee0ec381ba3d4475f60cd576e4a4e5d2b9877bc&v=4" width="100px;" alt="Davilson Junior"/>
+        <br />
+        <sub>
+          <b>Davilson Junior</b>
+        </sub>
+       </a>
+       <br />
+       <a href="https://www.linkedin.com/in/davilson-paulino-cunha-da-junior-23029315a/" title="Linkedin">@davilsonjunior</a>
+       <br />
+    </td>
+  </tr>
+</table>
 
-</br></br>
-Thanks for coming! 😊🤗
+# :closed_book: Licença
+
+Este projeto está sob a licença [MIT](./LICENCE).
