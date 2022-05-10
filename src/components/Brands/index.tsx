@@ -10,8 +10,8 @@ import { Container } from './styles';
 
 const Brands: React.FC = () => (
   <Container>
-    <h2>All the best brands already use us.</h2>
-    <div className="brand-logo">
+    <h2 data-aos="fade-left">All the best brands already use us.</h2>
+    <div data-aos="fade-up" className="brand-logo">
       <img src={lastKnightLogo} alt="Last Knight logo" />
       <img src={dragonEyeLogo} alt="Dragon Eye logo" />
       <img src={questLogo} alt="Quest AI logo" />

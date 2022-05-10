@@ -6,11 +6,22 @@ interface CardProps {
   url: string;
   alt: string;
   description: string;
+  duration: number;
   buttonText: string;
 }
 
-const Card: React.FC<CardProps> = ({ url, alt, description, buttonText }) => (
-  <Container>
+const Card: React.FC<CardProps> = ({
+  url,
+  alt,
+  description,
+  duration,
+  buttonText
+}) => (
+  <Container
+    data-aos="fade-up-right"
+    data-aos-offset="150"
+    data-aos-duration={duration}
+  >
     <img src={url} alt={alt} />
     <div className="content">
       <p>{description}</p>

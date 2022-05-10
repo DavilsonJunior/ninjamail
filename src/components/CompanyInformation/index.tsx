@@ -13,7 +13,7 @@ import { Container } from './styles';
 
 const CompanyInformation: React.FC = () => (
   <Container>
-    <section className="video">
+    <section data-aos="fade-down" className="video">
       <h1>Reach More Customers</h1>
       <button type="button" className="contained-light">
         LEARN HOW
@@ -24,6 +24,7 @@ const CompanyInformation: React.FC = () => (
         url={photoCardProfile}
         alt="card profile"
         description="Launch campaigns but also find new customers. Our unique platform handles campaigns from start to end."
+        duration={1500}
         buttonText="Learn More >"
       />
 
@@ -31,10 +32,11 @@ const CompanyInformation: React.FC = () => (
         url={photoCardGroup}
         alt="card people group"
         description="Start building and sharing with your team today. NinjaMail is renowned for its industry leading team collaboration tools."
+        duration={2000}
         buttonText="Learn More >"
       />
 
-      <article className="extra-description">
+      <article data-aos="fade-left" className="extra-description">
         <h2>The source for proven, engaging email campaigns</h2>
         <p>
           Whether you’re a startup, small business, e-commerce store, or want to
@@ -43,7 +45,7 @@ const CompanyInformation: React.FC = () => (
         </p>
       </article>
     </section>
-    <section className="case-studio">
+    <section data-aos="fade-right" className="case-studio">
       <CaseStudyBanner
         url={caseStudioMan}
         title="Frankie"

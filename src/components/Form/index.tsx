@@ -12,10 +12,10 @@ const Form: React.FC = () => {
 
   return (
     <Container>
-      <h2>
+      <h2 data-aos="fade-left">
         Learn how others are reaching their audience easier than ever before.
       </h2>
-      <form onSubmit={handleSubmit}>
+      <form data-aos="fade-up" onSubmit={handleSubmit}>
         <div className="form-control">
           <input type="email" name="email" placeholder="Enter your email" />
           {message && <div>{message}</div>}

@@ -9,8 +9,10 @@
     "commit": "cz"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "next": "10.2.0",
     "next-images": "^1.7.0",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -19,6 +21,7 @@
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
+    "@types/aos": "^3.0.4",
     "@types/node": "^15.3.0",
     "@types/react": "^17.0.5",
     "@types/styled-components": "^5.1.9",

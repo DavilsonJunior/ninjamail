@@ -3,7 +3,7 @@ import React from 'react';
 import { Container } from './styles';
 
 const Hero: React.FC = () => (
-  <Container>
+  <Container data-aos="fade-up">
     <div className="hero">
       <h1>
         Create Stunning {'\n'}
